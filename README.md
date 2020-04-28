@@ -6,7 +6,7 @@ enabling researchers to expand and modify the code.
 
 This software was written as part of an effort at Sandia National
 Laboratories described
-[here](SAND2020-4510-RapidResponseDataScienceForCOVID-19.pdf)
+[here](https://github.com/sandialabs/galen-view/blob/master/SAND2020-4510-RapidResponseDataScienceForCOVID-19.pdf)
 
 This code is named after Galen, a second century Greek physician who
 documented the Antonine Plague in the Roman Empire.
@@ -113,12 +113,12 @@ activate and use the visualization.
 <table style="width:100%">
 
 <tr>
-<td><img src="other/20200422-GalenView_RunNotebookMenu.png" alt="Run Notebook Menu">
+<td><img src="https://raw.githubusercontent.com/sandialabs/galen-view/master/other/20200422-GalenView_RunNotebookMenu.png" alt="Run Notebook Menu">
 <td>After the notebook loads, click "Restart & Runn All" from the menu at the top of the page.</td>
 </tr>
 
 <tr>
-<td><img src="other/20200422-GalenView_RunNotebookButton.png" alt="Run Notebook Button">
+<td><img src="https://raw.githubusercontent.com/sandialabs/galen-view/master/other/20200422-GalenView_RunNotebookButton.png" alt="Run Notebook Button">
 <td>A window will appear prompting you to restart the notebook.  Click the red button.</td>
 </tr>
 
@@ -133,7 +133,7 @@ the CORD19 dataset) on the right hand side.  Clicking on the
 
 <table style="width:100%">
 <tr>
-<td><img src="other/20200422-GalenView_Controls.png" alt="Controls"></td>
+<td><img src="https://raw.githubusercontent.com/sandialabs/galen-view/master/other/20200422-GalenView_Controls.png" alt="Controls"></td>
 <td>This interface lets you explore the various clusters of data by panning 
 and zooming.  The individual controls are described at the left.</td>
 </tr>
@@ -149,7 +149,7 @@ that query syntax can be found
 
 This following is a short description of each part of the user interface:
 
-<img src="other/20200422-GalenView_InterfaceExplanation.png" alt="interface explanation">
+<img src="https://raw.githubusercontent.com/sandialabs/galen-view/master/other/20200422-GalenView_InterfaceExplanation.png" alt="interface explanation">
 
 In the above example, the user has searched for the term "mers."  The
 documents that reference "mers" are mostly found in a particular
@@ -161,7 +161,7 @@ matches are in a cluster, but you can see similar clusters nearby.
 Through hovering, zomming, panning, and clicking, the user can explore
 the data set.
 
-<img src="other/20200422-GalenView_InterfaceZoomed.png" alt="zoomed interface">
+<img src="https://raw.githubusercontent.com/sandialabs/galen-view/master/other/20200422-GalenView_InterfaceZoomed.png" alt="zoomed interface">
 
 # Coloring
 
