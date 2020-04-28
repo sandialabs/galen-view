@@ -1,0 +1,16 @@
+*~
+*.swp
+*.swo
+.idea
+.cache
+.DS_Store
+*NOCOMMIT*
+venv
+*.egg-info
+__pycache__
+dist
+build
+*.pyc
+#*
+*#
+.#*
