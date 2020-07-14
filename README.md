@@ -68,14 +68,16 @@ cd galen_data
 
 Then run one of the following two commands:
 
-For a faster startup time that only analyzes the first 2000 documents:
+For a faster startup time that only analyzes the first 2000 documents
+(You may have to use "python" rather than "python3")::
 
 ```bash
 python3 -m sandia.galen.dataprep test
 ```
 
-To analyze all the downloaded documents.  This can take hourse, but
-you only have to do it once:
+To analyze all the downloaded documents.  
+(You may have to use "python" rather than "python3"):
+This can take hourse, but you only have to do it once:
 
 ```bash
 python3 -m sandia.galen.dataprep
