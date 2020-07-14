@@ -5,7 +5,7 @@ with open("README.md", 'r') as fh:
 
 setup(
     name="galen-view",
-    version="0.0.1",
+    version="0.0.2",
     author="Travis Bauer",
     author_email="tlbauer@sandia.gov",
     license='MIT',

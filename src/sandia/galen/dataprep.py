@@ -58,7 +58,10 @@ def download_data():
     
     if not path.exists("comm_use_subset"):
         print("Downloading the CORD-19 Dataset")
-        cotools.download()
+        try:
+            cotools.download()
+        except:
+            print("cotools had some problems downloading some of the data.  Continuing with downloaded data")
     else:
         print("Dataset already download")
 
@@ -146,10 +149,10 @@ if __name__ == "__main__":
     download_data()
     print("========")
     print("Making the Coordinates to Visualize the Data")
-    make_coords(num_docs=500 if sys.argv[-1].lower()=="test" else None, write_df=True)
+    make_coords(num_docs=2000 if sys.argv[-1].lower()=="test" else None, write_df=True)
     print("========")
     print("Building a searchable index from the documents")
-    make_index(num_docs=500 if sys.argv[-1].lower()=="test" else None)
+    make_index(num_docs=2000 if sys.argv[-1].lower()=="test" else None)
     print("========")
     copyfile(path.join(path.dirname(__file__), "GalenView.ipynb"), "GalenView.ipynb")
     print("Done.  Run \"jupyter-notebook GalenView.ipynb\" and run all cells to explore the data.")

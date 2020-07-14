@@ -23,6 +23,7 @@ For example, if you are using anaconda, you can execute the following:
 ```python
 conda create -n galenenv python=3
 conda activate galenenv
+If you are using Anaconda on Windows 10: conda install holoviews
 ```
 
 ## Install the wheel file
@@ -34,7 +35,7 @@ of dependencies.
 This can be done using:
 
 ```bash
-pip install galen_view-0.0.1-py3-none-any.whl
+pip install galen_view
 ```
 
 # Data Download and Configuration
@@ -54,15 +55,29 @@ download and not for galen-view to work after that.
 This will download files and create more.  It is recommended to do this
 in a fresh directory.
 
-For example:
+To create a new directory:
 
-```bash
+```base
 mkdir galen_data
 cd galen_data
+```
+
+Then run one of the following two commands:
+
+For a faster startup time that only analyzes the first 2000 documents:
+
+```bash
+python3 -m sandia.galen.dataprep test
+```
+
+To analyze all the downloaded documents.  This can take hourse, but
+you only have to do it once:
+
+```bash
 python3 -m sandia.galen.dataprep
 ```
 
-This can take up to two hours to run.  You will see progress during
+You will see progress during
 each step.  You should see something similar to the following:
 
 ```
