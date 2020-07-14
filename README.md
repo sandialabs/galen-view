@@ -39,7 +39,7 @@ of dependencies.
 This can be done using:
 
 ```bash
-pip install galen_view
+pip install galen-view
 ```
 
 # Data Download and Configuration
@@ -69,14 +69,16 @@ cd galen_data
 Then run one of the following two commands:
 
 For a faster startup time that only analyzes the first 2000 documents
-(You may have to use "python" rather than "python3")::
+(You may have to use "python" rather than "python3"):
 
 ```bash
 python3 -m sandia.galen.dataprep test
 ```
 
-To analyze all the downloaded documents.  
-(You may have to use "python" rather than "python3"):
+To analyze all the downloaded documents, execute the following.  
+
+(You may have to use "python" rather than "python3").
+
 This can take hourse, but you only have to do it once:
 
 ```bash
