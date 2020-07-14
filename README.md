@@ -20,10 +20,14 @@ python 3.  To get started, create a python 3 environment.
 
 For example, if you are using anaconda, you can execute the following:
 
-```python
+```bash
 conda create -n galenenv python=3
 conda activate galenenv
-If you are using Anaconda on Windows 10: conda install holoviews
+```
+
+If you are using Anaconda on Windows 10, also type:
+```bash
+conda install holoviews
 ```
 
 ## Install the wheel file
